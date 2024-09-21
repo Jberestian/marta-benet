@@ -60,7 +60,7 @@
 }
 
 .mr {
-    margin-right: 32px;
+  margin-right: 32px;
 }
 
 .logo_wrapper {
@@ -72,7 +72,7 @@
 /* craft styles */
 
 .craft_top {
-    padding: 100px 700px 0 60px;
+  padding: 100px 700px 0 60px;
 }
 
 .craft_top_title {
@@ -85,34 +85,34 @@
 }
 
 .craft_top_btn {
-    margin-top: 60px;
-    padding: 5px 25px;
-    font-family: Cardo;
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 25px;
-    text-align: left;
-    color: #000000;
-    background-color: inherit;
-    border-radius: 10px;
-    border: 1px solid #000000;
-    cursor: pointer;
+  margin-top: 60px;
+  padding: 5px 25px;
+  font-family: Cardo;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  color: #000000;
+  background-color: inherit;
+  border-radius: 10px;
+  border: 1px solid #000000;
+  cursor: pointer;
 }
 
 .craft_middle {
-    display: flex;
-    justify-content: flex-start;
-    align-items: baseline;
-    margin-left: 64px;
-    margin-bottom: 113px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  margin-left: 64px;
+  /* margin-bottom: 113px; */
 }
 
 .craft_middle_img {
-    margin-right: 24px;
+  margin-right: 24px;
 }
 
 .craft_middle_img:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 /* .mt {
@@ -124,28 +124,86 @@
 } */
 
 .craft_bottom_text {
-    padding: 0 78px 0 64px;
-    margin-bottom: 16px;
-    font-family: Cardo;
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 25px;
-    text-align: left;
-    color: #000000;
-} 
-
-.craft_bottom_btn {
-    margin: 37px 0 0 64px;
-    padding: 1px 25px;
-    font-family: Cardo;
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 25px;
-    text-align: left;
-    color: #000000;
-    background-color: inherit;
-    border-radius: 10px;
-    border: 1px solid #000000;
-    cursor: pointer;
+  padding: 0 78px 0 64px;
+  margin-bottom: 16px;
+  font-family: Cardo;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  color: #000000;
 }
 
+.craft_bottom_btn {
+  margin: 37px 0 0 64px;
+  padding: 1px 25px;
+  font-family: Cardo;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  color: #000000;
+  background-color: inherit;
+  border-radius: 10px;
+  border: 1px solid #000000;
+  cursor: pointer;
+}
+
+/* artworks styles */
+
+.artworks_subtext {
+  padding: 0 555px;
+  font-family: Cardo;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  color: #000000;
+}
+
+.artworks_group {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-top: 95px;
+  padding: 0 64px;
+}
+
+.mb {
+  margin-bottom: 160px;
+}
+
+.artworks_group_title {
+  margin-bottom: 8px;
+  font-family: Roboto;
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 80px;
+  text-align: center;
+  color: #000000;
+}
+
+.artworks_group_title:last-child {
+  margin-bottom: 0;
+}
+
+.artworks_block_btn {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.artworks_btn {
+  padding: 5px 25px;
+  font-family: Cardo;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  color: #000000;
+  background-color: inherit;
+  border-radius: 10px;
+  border: 1px solid #000000;
+  cursor: pointer;
+}
+
+/* projects styles */
