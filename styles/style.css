@@ -1,4 +1,151 @@
+/* header styles */
+
 .header {
   background: url(/images/main-bg.jpg);
   /* background-size: cover; */
 }
+
+.nav_block {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 48px 64px 0 64px;
+}
+.header_list {
+  display: flex;
+}
+
+.header_item {
+  margin-right: 16px;
+}
+
+.header_item:last-child {
+  margin-right: 0;
+}
+
+.header_link {
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.contact_list {
+  display: flex;
+}
+
+.concact_item {
+  margin-right: 16px;
+}
+
+/* .contact_item:nth-child(n + 2) {
+  margin-right: 32px;
+} */
+
+.concact_item:last-child {
+  margin-right: 0;
+}
+
+.contact_link {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: right;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.mr {
+    margin-right: 32px;
+}
+
+.logo_wrapper {
+  padding-top: 408px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+
+/* craft styles */
+
+.craft_top {
+    padding: 100px 700px 0 60px;
+}
+
+.craft_top_title {
+  font-family: Roboto;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 80px;
+  text-align: left;
+  color: #000000;
+}
+
+.craft_top_btn {
+    margin-top: 60px;
+    padding: 5px 25px;
+    font-family: Cardo;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #000000;
+    background-color: inherit;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    cursor: pointer;
+}
+
+.craft_middle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin-left: 64px;
+    margin-bottom: 113px;
+}
+
+.craft_middle_img {
+    margin-right: 24px;
+}
+
+.craft_middle_img:last-child {
+    margin-right: 0;
+}
+
+/* .mt {
+    margin-top: 300px;
+} */
+
+/* .craft_middle_img:first-child {
+    padding-top: 100px;
+} */
+
+.craft_bottom_text {
+    padding: 0 78px 0 64px;
+    margin-bottom: 16px;
+    font-family: Cardo;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #000000;
+} 
+
+.craft_bottom_btn {
+    margin: 37px 0 0 64px;
+    padding: 1px 25px;
+    font-family: Cardo;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #000000;
+    background-color: inherit;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    cursor: pointer;
+}
+
