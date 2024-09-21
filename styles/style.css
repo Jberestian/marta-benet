@@ -262,3 +262,118 @@
   line-height: 32px;
   text-align: left;
 }
+
+/* services styles */
+
+.services {
+  margin-top: 192px;
+}
+
+.services_subtitle {
+  margin-bottom: 64px;
+  font-family: Roboto;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 80px;
+  text-align: center;
+  color: #000000;
+}
+
+.services_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.services_item {
+  width: 300px;
+  margin-right: 120px;
+  margin-bottom: 100px;
+}
+
+.services_title {
+  margin-bottom: 17px;
+  width: 300px;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  color: #000000;
+}
+
+.services_text {
+  font-family: Cardo;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  color: #000000;
+}
+
+.services_subtext {
+  font-family: Cardo;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  color: #000000;
+}
+
+.services_btn_block {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.services_btn {
+  padding: 5px 25px;
+  font-family: Cardo;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  color: #000000;
+  background-color: inherit;
+  border-radius: 10px;
+  border: 1px solid #000000;
+  cursor: pointer;
+}
+
+.novelties_title {
+  margin-top: 200px;
+  margin-bottom: 50px;
+  font-family: Roboto;
+  font-size: 53px;
+  font-weight: 400;
+  line-height: 80px;
+  text-align: center;
+  color: #000000;
+}
+
+.novelties_list {
+  display: flex;
+  justify-content: center;
+}
+
+.novelties_item {
+  margin-right: 40px;
+}
+
+.novelties_text {
+  margin-top: 16px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #000000;
+}
+
+.novelties_price {
+  font-family: Cardo;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  color: #000000;
+}
