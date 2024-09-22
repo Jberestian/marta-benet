@@ -113,6 +113,11 @@
   margin-bottom: 113px;
 }
 
+.craft_middle_mb {
+  margin-right: 24px;
+  margin-bottom: 113px;
+}
+
 .craft_middle_img {
   margin-right: 24px;
 }
@@ -121,9 +126,9 @@
   margin-right: 0;
 }
 
-/* .mt {
-    margin-top: 300px;
-} */
+.mt {
+  margin-bottom: -96px;
+}
 
 /* .craft_middle_img:first-child {
     padding-top: 100px;
@@ -270,6 +275,7 @@
 }
 
 .services_subtitle {
+  margin-right: 110px;
   margin-bottom: 64px;
   font-family: Roboto;
   font-size: 50px;
